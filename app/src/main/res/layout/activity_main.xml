@@ -2,7 +2,8 @@
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_marginTop="20dp">
 
     <TextView
         android:layout_width="match_parent"
@@ -23,41 +24,41 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/polub"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginEnd="0dp"
-            android:background="#D2691E"
+            android:background="#008080"
             android:text="POLUB" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/usun"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginStart="0dp"
             android:layout_marginEnd="0dp"
-            android:background="#D2691E"
+            android:background="#008080"
             android:text="USUŃ" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/zapisz"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginStart="0dp"
-            android:background="#D2691E"
+            android:background="#008080"
             android:text="ZAPISZ" />
     </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="right"
+        android:layout_gravity="end"
         android:id="@+id/text_polub"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:text="0 polubień" />
 
     <View
