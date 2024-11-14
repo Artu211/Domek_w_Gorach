@@ -31,6 +31,7 @@
             android:layout_weight="1"
             android:layout_marginEnd="0dp"
             android:background="#008080"
+            android:textColor="@color/white"
             android:text="POLUB" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -41,6 +42,7 @@
             android:layout_marginStart="0dp"
             android:layout_marginEnd="0dp"
             android:background="#008080"
+            android:textColor="@color/white"
             android:text="USUŃ" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -50,6 +52,7 @@
             android:layout_weight="1"
             android:layout_marginStart="0dp"
             android:background="#008080"
+            android:textColor="@color/white"
             android:text="ZAPISZ" />
     </LinearLayout>
 
