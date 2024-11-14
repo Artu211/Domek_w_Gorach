@@ -34,9 +34,7 @@ public class MainActivity extends AppCompatActivity {
         text_polub = findViewById(R.id.text_polub);
 
 
-        polubButton.setBackgroundColor(tealColor);
-        usunButton.setBackgroundColor(tealColor);
-        zapiszButton.setBackgroundColor(tealColor);
+
 
         polubButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +42,15 @@ public class MainActivity extends AppCompatActivity {
                 count++;
                 text_polub.setText(count + " polubień");
 
+            }
+        });
+        usunButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(count > 0) {
+                    count--;
+                    text_polub.setText(count + " polubień");
+                }
             }
         });
 
